@@ -1,8 +1,8 @@
 {
-  "name": "vue-admin-template",
+  "name": "dms-admin-template",
   "version": "4.4.0",
   "description": "A vue admin template with Element UI & axios & iconfont & permission control & lint",
-  "author": "Pan <panfree23@gmail.com>",
+  "author": "erichow <fire8119@gmail.com>",
   "scripts": {
     "dev": "vue-cli-service serve",
     "build:prod": "vue-cli-service build",
@@ -40,6 +40,7 @@
     "eslint": "6.7.2",
     "eslint-plugin-vue": "6.2.2",
     "html-webpack-plugin": "3.2.0",
+    "lerna": "^6.5.1",
     "mockjs": "1.0.1-beta3",
     "runjs": "4.3.2",
     "sass": "1.26.8",
@@ -58,5 +59,8 @@
     "node": ">=8.9",
     "npm": ">= 3.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ]
 }
